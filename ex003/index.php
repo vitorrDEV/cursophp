@@ -8,9 +8,23 @@
 <body>
     <h1>Teste de Tipos Primitivos</h1>
     <?php 
-        $num = 300;
+        //$v = false;
+        //var_dump($v);
 
-        echo "O valor da variavel é $num"
+        // 0x = hexadecimal 0b = binaro 0 = octal
+        //$num = 010;
+        //echo "O valor da variavel é $num"
+
+        //$vet = [3,6,2,1,9];
+        //var_dump($vet);
+
+        class Pessoa{
+            private string $nome;
+        }
+
+        $p =new Pessoa;
+        var_dump($p);
+
     ?>
     
 </body>
